@@ -8,9 +8,15 @@ html{
 
 body{
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
+nav{
+    background-color: black !important;
+}
+ul .nav-item a{
+    color: white;
+}
 .headingPart{
     width: 100%;
     min-height: 100vh;
@@ -46,6 +52,4 @@ body{
     100%{
         transform: translateX(0%);
     }
-}
-.container{
 }
