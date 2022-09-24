@@ -70,7 +70,7 @@ ul .nav-item a{
 
 }
 .jumbo .container .row div:nth-child(1) h2{
-    font-size: 3rem;
+    font-size: 4rem;
     color: rgb(1, 232, 255);
     text-shadow: 2px 2px #ff0000;;
     text-align: center;
@@ -86,14 +86,10 @@ ul .nav-item a{
     font-family: Roboto,sans-serif !important;
 }
 .jumbo .container .row div:nth-child(2) div{
-    border: solid 1px white;
+    border: solid 1px rgb(1, 232, 255);
     width: 50%;
     text-align: center;
     padding: 10px;
-}
-.jumbo .container .row div:nth-child(2) div:hover{
-    border: solid 1px rgb(1, 232, 255);
-    
 }
 .jumbo .container .row div:nth-child(2) a{
     color: white;
@@ -104,4 +100,14 @@ ul .nav-item a{
 
 .jumbo .container .row div:nth-child(2) div:hover{
     color: rgb(1, 232, 255);
+}
+
+@media (max-width: 400px) {
+    .jumbo{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .jumbo .container .row div:nth-child(2){
+        padding-top: 5%;
+    }
 }
