@@ -41,8 +41,6 @@ ul .nav-item a{
 .innerContainer .container .row h1{
     font-size: 4rem;
     font-weight: 400;
-    transform: translateX(-100%);
-    animation: animate 1s ease forwards;
 }
 .innerContainer .container .row h1 span{
     color: rgb(1, 232, 255);
