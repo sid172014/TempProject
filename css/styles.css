@@ -62,4 +62,46 @@ ul .nav-item a{
 .jumbo{
     min-height: 100vh;
     background-color: black;
+    color: white;
+    padding-top: 100px;
+    font-family: 'Playfair Display', serif !important;  
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+.jumbo .container .row div:nth-child(1) h2{
+    font-size: 3rem;
+    color: rgb(1, 232, 255);
+    text-shadow: 2px 2px #ff0000;;
+    text-align: center;
+}
+.jumbo .container .row div:nth-child(1) p{
+    font-size: 1rem;
+}
+.jumbo .container .row div:nth-child(1){
+    padding-top: 15%;
+    text-align: center;
+}
+.jumbo .container .row div:nth-child(2){
+    font-family: Roboto,sans-serif !important;
+}
+.jumbo .container .row div:nth-child(2) div{
+    border: solid 1px white;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+.jumbo .container .row div:nth-child(2) div:hover{
+    border: solid 1px rgb(1, 232, 255);
+    
+}
+.jumbo .container .row div:nth-child(2) a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+}
+
+.jumbo .container .row div:nth-child(2) div:hover{
+    color: rgb(1, 232, 255);
 }
