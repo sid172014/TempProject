@@ -34,6 +34,10 @@ body{
     transform: translateX(-100%);
     animation: animate 1s ease forwards;
 }
+.innerContainer .container .row h1 span{
+    color: rgb(1, 232, 255);
+    text-shadow: 2px 2px #ff0000;;
+}
 .innerContainer .container .row div:nth-child(2) {
     transform: translateX(-100%);
     animation: animate 1s ease forwards;
