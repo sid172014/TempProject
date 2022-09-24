@@ -74,6 +74,7 @@ ul .nav-item a{
     color: rgb(1, 232, 255);
     text-shadow: 2px 2px #ff0000;;
     text-align: center;
+   
 }
 .jumbo .container .row div:nth-child(1) p{
     font-size: 1rem;
@@ -106,6 +107,7 @@ ul .nav-item a{
     .jumbo{
         padding-left: 10%;
         padding-right: 10%;
+        min-height: 150vh;
     }
     .jumbo .container .row div:nth-child(2){
         padding-top: 5%;
