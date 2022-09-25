@@ -210,7 +210,7 @@ ul .nav-item a{
     text-align: center;
     font-size: 1.5rem;
 }
-.sponsors .row div:nth-child(2) img,.sponsors .row div:nth-child(3) img,.sponsors .row div:nth-child(4) img,.sponsors .row div:nth-child(5) img,.sponsors .row div:nth-child(6) img,.sponsors .row div:nth-child(7) img,.sponsors .row div:nth-child(8) img,.sponsors .row div:nth-child(9) img{
+.sponsors .row div:nth-child(2) img,.sponsors .row div:nth-child(3) img,.sponsors .row div:nth-child(4) img,.sponsors .row div:nth-child(5) img,.sponsors .row div:nth-child(6) img,.sponsors .row div:nth-child(7) img,.sponsors .row div:nth-child(8) img,.sponsors .row div:nth-child(9) img,.sponsors .row div:nth-child(10) img,.sponsors .row div:nth-child(11) img,.sponsors .row div:nth-child(12) img,.sponsors .row div:nth-child(13) img{
     background-color: white;
     border-radius: 50%;
     border: solid 2px rgb(1, 232, 255); 
@@ -254,7 +254,11 @@ ul .nav-item a{
 nav{  
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('http://placehold.it/350x150') !important;
 }
-
+.navbar img{
+    position: absolute;
+    left: 2%;
+    top: 5%;
+}
 .navbar-nav li p{
     width: 0%;
     height: 5px;
