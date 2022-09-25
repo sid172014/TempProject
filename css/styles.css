@@ -331,5 +331,8 @@ nav{
 		font-size: 14px;
 		font-weight: normal;
 	}
+    .navbar-nav li:hover p{
+        animation: none;
+    }
 }
 
