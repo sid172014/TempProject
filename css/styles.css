@@ -221,8 +221,14 @@ ul .nav-item a{
 }
 
 /* Navbar Css */
+<<<<<<< HEAD
 
 
+=======
+nav{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('http://placehold.it/350x150') !important;  
+}
+>>>>>>> dcd60ba8da0d3d8d948ecc9920c5e885e281d96a
 .navbar-nav a {
 	font-family: poppins;
 	font-size: 18px;
