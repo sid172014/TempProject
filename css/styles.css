@@ -187,6 +187,35 @@ ul .nav-item a{
 
 
 
+/* Sponsors CSS */
+.sponsors{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    font-family: 'Playfair Display', serif !important;  
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.sponsors .row div:nth-child(1){
+    text-align: center;
+    padding-bottom: 10%;
+    font-size: 4rem;
+}
+.sponsors .row div:nth-child(1) span{
+    color: rgb(1, 232, 255);
+    text-shadow: 2px 2px #ff0000;
+}
+.sponsors .row div{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.sponsors .row div:nth-child(2) img,.sponsors .row div:nth-child(3) img,.sponsors .row div:nth-child(4) img,.sponsors .row div:nth-child(5) img,.sponsors .row div:nth-child(6) img,.sponsors .row div:nth-child(7) img,.sponsors .row div:nth-child(8) img,.sponsors .row div:nth-child(9) img{
+    background-color: white;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
 
 /* Media Queries */
 
@@ -341,24 +370,14 @@ nav{
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
 .faq{
   position: relative;
   background: #fff;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  border-radius: 10px;
   filter: drop-shadow(0 0 10px
           rgba(0, 0, 0, 0.5));
-
           min-height: 100vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
   background: black;
   display: flex;
   justify-content: center; 
@@ -377,9 +396,9 @@ nav{
   margin-left: 40px;
 }
 
-.title {
+.faq .container .title {
   margin-top: 20px;
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: center;
   color: #fff;
 }
@@ -422,6 +441,7 @@ nav{
 
 .slash{
   color:  rgb(1, 232, 255);
+  text-shadow: 2px 2px #ff0000;
 }
 
 .up-icon {
