@@ -217,6 +217,15 @@ ul .nav-item a{
     box-shadow:  2px 2px 1px 1px #ff0000;
 }
 
+.sponsors .row div:nth-child(2) img:hover,.sponsors .row div:nth-child(3) img:hover,.sponsors .row div:nth-child(4) img:hover,.sponsors .row div:nth-child(5) img:hover,.sponsors .row div:nth-child(6) img:hover,.sponsors .row div:nth-child(7) img:hover,.sponsors .row div:nth-child(8) img:hover,.sponsors .row div:nth-child(9) img:hover,.sponsors .row div:nth-child(10) img:hover,.sponsors .row div:nth-child(11) img:hover,.sponsors .row div:nth-child(12) img:hover,.sponsors .row div:nth-child(13) img:hover{
+    transform: scale(1);
+    animation: animateicons 1s ease-out forwards;
+}
+@keyframes animateicons {
+    100%{
+        transform: scale(1.2);
+    }
+}
 /* Media Queries */
 
 @media (max-width: 400px) {
