@@ -273,6 +273,7 @@ nav{
 .navbar-nav li:nth-child(8) a:hover{
     border: solid 1px white;
     color: rgb(1, 232, 255) !important;
+    font-weight: bold !important;
     box-shadow: none;
 }
 .navbar-nav li:nth-child(8) a button{
@@ -291,6 +292,7 @@ nav{
 }
 .navbar-light .navbar-nav .nav-link {
 	color: #fff;
+
 }
 .navbar-nav {
 	text-align: center;
@@ -319,7 +321,8 @@ nav{
         padding-top: -5%;
     }
 	.navbar-nav.ml-auto {
-		background: rgba(0, 0, 0, 0.5);
+		
+    background-color: black !important;
 	}
     .navbar-nav li:nth-child(6) a{
         margin-left: 0px;
