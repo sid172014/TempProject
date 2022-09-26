@@ -730,18 +730,18 @@ nav{
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: rgb(1, 232, 255) url("../icons/loading.gif") no-repeat center;
+	background: black url("../icons/loading.gif") no-repeat center;
 	background-size: 20rem;
 	z-index: 99999;
 	display: flex;
 	justify-content: center;
 }
 #loading div{
-	font-size: 3rem;
+	font-size: 2rem;
 	position: absolute;
 	bottom: 20%;
 	color: white;
-	font-family: "Open sans";
+    font-family: 'Playfair Display', serif;
 	font-weight: bold;
 	text-shadow: 2px 2px #ff0000;;
 }
