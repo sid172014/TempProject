@@ -272,8 +272,8 @@ nav{
     width: 0%;
     height: 5px;
     background-color: white;
-    
 }
+
 .navbar .navbar-brand img:hover{
     animation: animaterot 2s ease-in-out forwards ;
 }
