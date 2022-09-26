@@ -734,7 +734,13 @@ nav{
 	background-size: 20rem;
 	z-index: 99999;
 	display: flex;
+    align-items: center;
 	justify-content: center;
+    border: solid 2px #ff0000;
+}
+#loading img{
+    display: flex;
+    align-items: center;
 }
 #loading div{
 	font-size: 2rem;
