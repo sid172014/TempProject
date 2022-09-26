@@ -736,7 +736,6 @@ nav{
 	display: flex;
     align-items: center;
 	justify-content: center;
-    border: solid 2px #ff0000;
 }
 #loading img{
     display: flex;
@@ -749,6 +748,6 @@ nav{
 	color: rgb(1, 232, 255);
     font-family: 'Playfair Display', serif;
 	font-weight: bold;
-	text-shadow: 2px 2px #ff0000;;
+	text-shadow: 2px 2px #ff0000;
 }
 
