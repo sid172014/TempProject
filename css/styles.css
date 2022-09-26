@@ -730,6 +730,6 @@ nav{
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: #fff url("../icons/002-facebook-colored.png") no-repeat center;
+	background: rgb(1, 232, 255) url("../icons/loading.gif") no-repeat center;
 	z-index: 99999;
 }
