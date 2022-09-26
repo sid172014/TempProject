@@ -194,9 +194,10 @@ ul .nav-item a{
     color: white;
     padding-top: 100px;
     font-family: 'Playfair Display', serif !important;  
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
 .sponsors .row div:nth-child(1){
     text-align: center;
     padding-bottom: 10%;
@@ -400,6 +401,7 @@ ul .nav-item a{
         padding-right: 10%;
         min-height: 300vh;
     }
+  
     .jumbo .container .row div:nth-child(3){
         margin-top: 25%;
     }
