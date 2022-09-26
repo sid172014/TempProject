@@ -722,3 +722,15 @@ nav{
     padding-top: 100px;
     
 }
+
+
+#loading{
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #fff url("walmart\ colored.png") no-repeat center;
+
+	z-index: 99999;
+}
