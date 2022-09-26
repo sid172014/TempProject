@@ -210,16 +210,182 @@ ul .nav-item a{
     text-align: center;
     font-size: 1.5rem;
 }
-.sponsors .row div:nth-child(2) img,.sponsors .row div:nth-child(3) img,.sponsors .row div:nth-child(4) img,.sponsors .row div:nth-child(5) img,.sponsors .row div:nth-child(6) img,.sponsors .row div:nth-child(7) img,.sponsors .row div:nth-child(8) img,.sponsors .row div:nth-child(9) img,.sponsors .row div:nth-child(10) img,.sponsors .row div:nth-child(11) img,.sponsors .row div:nth-child(12) img,.sponsors .row div:nth-child(13) img{
+.sponsors .row div:nth-child(2) img{
+
+    background-image: url("../icons/001-github-sign.png");
+    background-size: cover;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
+.sponsors .row div:nth-child(2) img:hover{
+    transform: scale(1);
+    animation: animateicons 2s ease-out forwards;
+    background-image: url("../icons/001-github-sign-colored.png");
+    background-color: black;
+}
+.sponsors .row div:nth-child(3) img{
+    background-image: url("../icons/002-facebook.png");
+    background-size: cover;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
+.sponsors .row div:nth-child(3) img:hover{
+    transform: scale(1);
+    animation: animateicons 2s ease-out forwards;
+    background-image: url("../icons/002-facebook-colored.png");
+    background-color: white;
+}
+.sponsors .row div:nth-child(4) img{
+    background-image: url("../icons/003-brand.png");
+    background-size: cover;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
+.sponsors .row div:nth-child(4) img:hover{
+    transform: scale(1);
+    animation: animateicons 2s ease-out forwards;
+    background-image: url("../icons/brand.png");
+    background-color: red;
+}
+.sponsors .row div:nth-child(5) img{
+    background-image: url("../icons/001-apple.png");
+    background-size: cover;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
+.sponsors .row div:nth-child(5) img:hover{
+    transform: scale(1);
+    animation: animateicons 1s ease-out forwards;
+    background-image: url("../icons/apple\ \(1\).png");
+    background-color: #555555;
+}
+.sponsors .row div:nth-child(6) img{
+    background-image: url("../icons/001-nike.png");
+    background-size: cover;
     background-color: white;
     border-radius: 50%;
     border: solid 2px rgb(1, 232, 255); 
     box-shadow:  2px 2px 1px 1px #ff0000;
 }
 
-.sponsors .row div:nth-child(2) img:hover,.sponsors .row div:nth-child(3) img:hover,.sponsors .row div:nth-child(4) img:hover,.sponsors .row div:nth-child(5) img:hover,.sponsors .row div:nth-child(6) img:hover,.sponsors .row div:nth-child(7) img:hover,.sponsors .row div:nth-child(8) img:hover,.sponsors .row div:nth-child(9) img:hover,.sponsors .row div:nth-child(10) img:hover,.sponsors .row div:nth-child(11) img:hover,.sponsors .row div:nth-child(12) img:hover,.sponsors .row div:nth-child(13) img:hover{
+.sponsors .row div:nth-child(6) img:hover{
+    transform: scale(1);
+    background-image: url("../icons/002-nike-1.png");
+    animation: animateicons 1s ease-out forwards;
+    background-color: black;
+}
+.sponsors .row div:nth-child(7) img{
+    background-image: url("../icons/001-walmart-1.png");
+    background-size: cover;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
+.sponsors .row div:nth-child(7) img:hover{
     transform: scale(1);
     animation: animateicons 1s ease-out forwards;
+    background-image: url("../icons/walmart\ colored.png");
+    background-color: black;
+}
+.sponsors .row div:nth-child(8) img{
+    background-image: url("../icons/007-office.png");
+    background-size: cover;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
+.sponsors .row div:nth-child(8) img:hover{
+    transform: scale(1);
+    background-image: url("../icons/office.png");
+    animation: animateicons 1s ease-out forwards;
+    background-color: black;
+}
+.sponsors .row div:nth-child(9) img{
+
+    background-image: url("../icons/nvidia.png");
+    background-size: cover;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
+.sponsors .row div:nth-child(9) img:hover{
+    transform: scale(1);
+    background-image: url("../icons/nvidia\ colored.png");
+    animation: animateicons 1s ease-out forwards;
+    background-color: white;
+}
+.sponsors .row div:nth-child(10) img{
+    background-image: url("../icons/003-brand.png");
+    background-size: cover;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
+.sponsors .row div:nth-child(10) img:hover{
+    transform: scale(1);
+    animation: animateicons 2s ease-out forwards;
+    background-image: url("../icons/brand.png");
+    background-color: red;
+}
+
+
+.sponsors .row div:nth-child(11) img{
+    background-image: url("../icons/002-facebook.png");
+    background-size: cover;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
+.sponsors .row div:nth-child(11) img:hover{
+    transform: scale(1);
+    animation: animateicons 2s ease-out forwards;
+    background-image: url("../icons/002-facebook-colored.png");
+    background-color: white;
+}
+
+
+.sponsors .row div:nth-child(12) img{
+
+    background-image: url("../icons/nvidia.png");
+    background-size: cover;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
+.sponsors .row div:nth-child(12) img:hover{
+    transform: scale(1);
+    background-image: url("../icons/nvidia\ colored.png");
+    animation: animateicons 1s ease-out forwards;
+    background-color: white;
+}
+
+.sponsors .row div:nth-child(13) img{
+    background-image: url("../icons/001-apple.png");
+    background-size: cover;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 2px rgb(1, 232, 255); 
+    box-shadow:  2px 2px 1px 1px #ff0000;
+}
+.sponsors .row div:nth-child(13) img:hover{
+    transform: scale(1);
+    animation: animateicons 1s ease-out forwards;
+    background-image: url("../icons/apple\ \(1\).png");
+    background-color: #555555;
 }
 @keyframes animateicons {
     100%{
