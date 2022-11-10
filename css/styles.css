@@ -688,6 +688,7 @@ input[type="checkbox"] {
         display: flex;
         justify-content: space-between;
         padding-top: 5% !important;
+        padding-bottom: 5%;
     }
     .footerBanner .items a{
         color: white;
