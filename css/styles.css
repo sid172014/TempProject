@@ -689,6 +689,18 @@ input[type="checkbox"] {
         justify-content: space-between;
         padding-top: 5% !important;
     }
+    .footerBanner .items a{
+        color: white;
+        padding-top: 2%;
+        
+    }
+    .footerBanner .items a:nth-child(6){
+        padding-bottom: 5%;        
+    }
+    .footerBanner .items{
+        display: block !important;
+        justify-content: center;
+    }
     .someContainer{
         display: flex;
         justify-content: center;
@@ -1173,9 +1185,13 @@ nav {
     font-size: 14px;
     font-weight: 600;
 }
-.items a{
-    color: white;
+.footerBanner .items .row{
+    width: 100% !important;
+}
 
+.footerBanner .items a{
+    color: white;
+    text-align: center;
 }
 .items a:hover{
     text-decoration: none;
