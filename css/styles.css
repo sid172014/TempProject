@@ -681,7 +681,7 @@ input[type="checkbox"] {
         display: none;
     }
     .contact,.someContainer,.someContainer .container{
-        min-height: 80vh !important ;
+        min-height: 90vh !important ;
     }
     .contained div:nth-child(4){
         width: 360px !important;
