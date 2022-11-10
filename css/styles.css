@@ -677,6 +677,25 @@ input[type="checkbox"] {
 /* Media Queries */
 
 @media (max-width: 450px) {
+    .secondSec{
+        display: none;
+    }
+    .contact,.someContainer,.someContainer .container{
+        min-height: 80vh !important ;
+    }
+    .contained div:nth-child(4){
+        width: 360px !important;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5% !important;
+    }
+    .someContainer{
+        display: flex;
+        justify-content: center;
+    }
+    .someContainer .contained div{
+        width: 360px;
+    }
     .jumbo {
         padding-left: 10%;
         padding-right: 10%;
@@ -1139,6 +1158,31 @@ nav {
     font-weight: bold;
     color: black;
 }
+.footerBanner{
+    background-color:  #343434;
+
+}
+.footerBanner .items{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.items a{
+    color: white;
+
+}
+.items a:hover{
+    text-decoration: none;
+    color: #45f3ff;
+    text-shadow: 1px 1px #ff0000;
+}
+/* Contact Us CSS ends here  */
 /* For loading animation */
 #loading {
     width: 100%;
