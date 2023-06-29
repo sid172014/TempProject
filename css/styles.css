@@ -43,7 +43,7 @@ ul .nav-item a {
     align-items: center;
     color: white;
     font-family: 'Playfair Display', serif;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('http://placehold.it/350x150');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/img/back3.jpg');
 
 
 }
@@ -61,6 +61,7 @@ ul .nav-item a {
 
 .innerContainer .container .row div:nth-child(2) {
     transform: translateX(-100%);
+    
     animation: animate 1s ease forwards;
 }
 
@@ -227,7 +228,7 @@ ul .nav-item a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('http://placehold.it/350x150') !important;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('/img/back10.jpg') !important;
 
 }
 
@@ -765,7 +766,7 @@ input[type="checkbox"] {
 
 /* Navbar Css */
 nav {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('http://placehold.it/350x150') !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) !important;
 }
 
 .navbar img {
@@ -835,7 +836,7 @@ nav {
 }
 
 .navbar-nav li:nth-child(8) a button {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('http://placehold.it/350x150') !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/img/back3.jpg') !important;
     color: white;
 }
 
